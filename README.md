@@ -1,12 +1,9 @@
  <div align="center">
- <img align="center" width="230" src="https://i.imgur.com/pGGFGpi.png" />
-  <h2>Javascript Library Boilerplate Basic</h2>
-  <blockquote>Minimal Library Starter Kit for your Javascript projects</blockquote>
+ <img align="center" width="230" style="margin-bottom: 20px" src="https://i.imgur.com/ssD3mvO.png" />
+  <h2>Javascript Library Boilerplate for Bubble.io plugin</h2>
+  <blockquote>A Minimal Starter Kit for your Bubble.io project</blockquote>
  
- <a href="https://github.com/hodgef/js-library-boilerplate-basic/actions"><img alt="Build Status" src="https://github.com/hodgef/js-library-boilerplate-basic/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/hodgef/js-library-boilerplate-basic/actions"> <img alt="Publish Status" src="https://github.com/hodgef/js-library-boilerplate-basic/workflows/Publish/badge.svg?color=green" /></a> <img src="https://img.shields.io/david/hodgef/js-library-boilerplate-basic.svg" /> <a href="https://david-dm.org/hodgef/js-library-boilerplate-basic?type=dev"><img src="https://img.shields.io/david/dev/hodgef/js-library-boilerplate-basic.svg" /></a> <img src="https://api.dependabot.com/badges/status?host=github&repo=hodgef/js-library-boilerplate-basic" />
- 
-<strong>This is a basic library boilerplate. For a more robust alternative, check out [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate).</strong><br />
-<strong>Like TypeScript? Check out [ts-library-boilerplate-basic](https://github.com/hodgef/ts-library-boilerplate-basic).</strong>
+ <a href="https://github.com/digital-engine-info/bubble-plugin-boilerplate/actions"><img alt="Build Status" src="https://github.com/digital-engine-info/bubble-plugin-boilerplate/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/digital-engine-info/bubble-plugin-boilerplate/actions"> <img alt="Publish Status" src="https://github.com/digital-engine-info/bubble-plugin-boilerplate/workflows/Publish/badge.svg?color=green" /></a> <img src="https://img.shields.io/david/digital-engine-info/bubble-plugin-boilerplate.svg" /> <a href="https://david-dm.org/digital-engine-info/bubble-plugin-boilerplate?type=dev"><img src="https://img.shields.io/david/dev/digital-engine-info/bubble-plugin-boilerplate.svg" /></a> <img src="https://api.dependabot.com/badges/status?host=github&repo=digital-engine-info/bubble-plugin-boilerplate" />
 </div>
 
 ## ⭐️ Features
@@ -21,7 +18,7 @@
 ## 📦 Getting Started
 
 ```
-git clone https://github.com/hodgef/js-library-boilerplate-basic.git myLibrary
+git clone https://github.com/digital-engine-info/bubble-plugin-boilerplate.git myLibrary
 npm install
 ```
 
@@ -31,7 +28,6 @@ npm install
 
 1. Edit `LICENSE` file
 2. Edit `package.json` information (These will be used to generate the headers for your built files)
-3. Edit `library: "MyLibrary"` with your library's export name in `./webpack.config.js`
 
 ## 🚀 Deployment
 
@@ -57,14 +53,3 @@ const libraryInstance = new MyLibrary();
 ```
 
 > **Note:** In this minimal version, any images and css files you import will be added to the js bundle. If you want them as separate files, you can use [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate) or edit the Webpack config accordingly.
-
-## ✅ Libraries built with this boilerplate
-
-> Made a library using this starter kit? Share it here by [submitting a pull request](https://github.com/hodgef/js-library-boilerplate-basic/pulls)!
-
-- [Canvas-Txt](https://github.com/geongeorge/Canvas-Txt) - A library to print multiline text on HTML5 canvas with better line breaks and alignments
-- [moon-phase-widget](https://github.com/g00dv1n/moon-phase-widget) - Super tiny javascript library to add awesome moon phase widget to your website
-- [simple-keyboard-autocorrect](https://github.com/hodgef/simple-keyboard-autocorrect) - Autocorrect module for simple-keyboard
-- [simple-keyboard-input-mask](https://github.com/hodgef/simple-keyboard-input-mask) - Input mask module for simple-keyboard
-- [simple-keyboard-key-navigation](https://github.com/hodgef/simple-keyboard-key-navigation) - Key navigation module for simple-keyboard
-- [swipe-keyboard](https://github.com/hodgef/swipe-keyboard) - Swype type keyboard module for simple-keyboard

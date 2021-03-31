@@ -1,6 +1,10 @@
-const MyLibrary = window.MyLibrary.default;
-const myLibraryInstance = new MyLibrary();
+const BubbleBoilerplateLibrary =
+  window.BubbleBoilerplateLibrary.default;
+const myLibraryInstance = new BubbleBoilerplateLibrary();
 
-console.log("myLibraryInstance", myLibraryInstance);
+console.log(
+  "myLibraryInstance",
+  myLibraryInstance
+);
 
-myLibraryInstance.myMethod(); 
+myLibraryInstance.myMethod();

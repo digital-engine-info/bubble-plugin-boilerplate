@@ -1,7 +1,7 @@
 {
-  "name": "@hodgef/js-library-boilerplate-basic",
-  "version": "1.5.25",
-  "description": "Javascript Minimal Starter Kit for building libraries",
+  "name": "@digital-engine/bubble-plugin-boilerplate",
+  "version": "1.0.0",
+  "description": "Javascript Minimal Starter Kit for bubble.io plugins",
   "main": "build/index.js",
   "scripts": {
     "start": "webpack serve",
@@ -12,18 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hodgef/js-library-boilerplate-basic"
+    "url": "https://github.com/digital-engine-info/bubble-plugin-boilerplate"
   },
-  "author": "Francisco Hodge <hello@franciscohodge.com> (https://github.com/hodgef)",
+  "author": "Florian Briand <contact@digital-engine.info> (https://github.com/nabellaleen)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hodgef/js-library-boilerplate-basic/issues"
+    "url": "https://github.com/digital-engine-info/bubble-plugin-boilerplate/issues"
   },
-  "homepage": "https://github.com/hodgef/js-library-boilerplate-basic",
+  "homepage": "https://github.com/digital-engine-info/bubble-plugin-boilerplate",
   "keywords": [
-    "library",
+    "plugin",
     "starter",
-    "es6"
+    "es6",
+    "nocode",
+    "bubble.io"
   ],
   "devDependencies": {
     "@babel/cli": "^7.13.14",
@@ -52,5 +54,8 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/scripts/testMock.js",
       "\\.(css|less)$": "<rootDir>/scripts/testMock.js"
     }
+  },
+  "dependencies": {
+    "@digital-engine/bubble-plugin-helpers": "^1.0.4"
   }
 }

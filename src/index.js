@@ -1,6 +1,6 @@
 import "./index.css";
 
-class MyLibrary {
+class BubbleBoilerplateLibrary {
   constructor() {
     console.log("Library constructor loaded");
   }
@@ -10,4 +10,4 @@ class MyLibrary {
   };
 }
 
-export default MyLibrary;
+export default BubbleBoilerplateLibrary;
