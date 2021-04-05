@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "trypublish": "npm publish || true",
-    "release": "VERSION=$(npm version patch) && VERSION=$(echo $VERSION | cut -c 2-) && npm run build && git add . || true && git commit -m 'Build v$VERSION' | true && git tag -a v$VERSION -m 'v$VERSION' | true"
+    "release": "npm version patch -m 'Release v%s'"
   },
   "repository": {
     "type": "git",
