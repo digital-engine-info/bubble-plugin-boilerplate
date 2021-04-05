@@ -6,21 +6,15 @@
  <a href="https://github.com/digital-engine-info/bubble-plugin-boilerplate/actions"><img alt="Build Status" src="https://github.com/digital-engine-info/bubble-plugin-boilerplate/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/digital-engine-info/bubble-plugin-boilerplate/actions"> <img alt="Publish Status" src="https://github.com/digital-engine-info/bubble-plugin-boilerplate/workflows/Publish/badge.svg?color=green" /></a> <img src="https://img.shields.io/david/digital-engine-info/bubble-plugin-boilerplate.svg" /> <a href="https://david-dm.org/digital-engine-info/bubble-plugin-boilerplate?type=dev"><img src="https://img.shields.io/david/dev/digital-engine-info/bubble-plugin-boilerplate.svg" /></a> <img src="https://api.dependabot.com/badges/status?host=github&repo=digital-engine-info/bubble-plugin-boilerplate" />
 </div>
 
-## ⭐️ Features
-
-- Webpack 5
-- Babel 7
-- Hot reloading (`npm start`)
-- UMD exports, so your library works everywhere.
-- Jest unit testing
-- Daily [dependabot](https://dependabot.com) dependency updates
-
 ## 📦 Getting Started
 
 ```
 git clone https://github.com/digital-engine-info/bubble-plugin-boilerplate.git myLibrary
 npm install
 ```
+
+> Bubble plugins examples can be found in `src` directory :
+> - `src/serverAction/index.js` contains the runServer expected by a bubble server side action
 
 ## 💎 Customization
 
@@ -29,27 +23,11 @@ npm install
 1. Edit `LICENSE` file
 2. Edit `package.json` information (These will be used to generate the headers for your built files)
 
-## 🚀 Deployment
+## 🧪 Unit test
 
-1. `npm publish`
-2. Your users can include your library as usual
-
-### npm
+> You can run unit tests by using following command. Documentation about the test library can be found [here](https://jestjs.io/)
+> Tests are written in files *.test.js stored closed to the source files : index.js --> index.test.js
 
 ```
-import MyLibrary from 'my-library';
-const libraryInstance = new MyLibrary();
-...
+npm test
 ```
-
-### self-host/cdn
-
-```
-<script src="build/index.js"></script>
-
-const MyLibrary = window.MyLibrary.default;
-const libraryInstance = new MyLibrary();
-...
-```
-
-> **Note:** In this minimal version, any images and css files you import will be added to the js bundle. If you want them as separate files, you can use [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate) or edit the Webpack config accordingly.

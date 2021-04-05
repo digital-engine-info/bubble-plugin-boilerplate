@@ -42,6 +42,11 @@ module.exports = {
     libraryTarget: "umd",
     clean: true,
   },
+  resolve: {
+    alias: {
+      "~src": path.resolve(__dirname, "src"),
+    },
+  },
   optimization: {
     minimize: true,
     minimizer: [
