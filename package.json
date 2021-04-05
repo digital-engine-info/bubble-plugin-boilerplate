@@ -1,6 +1,6 @@
 {
   "name": "@digital-engine/bubble-plugin-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript Minimal Starter Kit for bubble.io plugins",
   "main": "build/index.js",
   "scripts": {
